@@ -1,6 +1,10 @@
 # CSIT227-GO3
 
-69. Sqrt(x)
+Problem Title: 69. Sqrt(x)
+
+Difficulty Level: Easy
+
+\bDescription
 
 Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
 
