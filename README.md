@@ -1,12 +1,13 @@
 # CSIT227-GO3
 
-**Problem Title: 66. Plus One**
+**Problem Title: 26. Remove Duplicates from Sorted Array**
 
 **Difficulty Level: Easy**
 
 **Description**
 
-**You are given a large integer represented as an integer array digits, where each<br>
-digits[i] is the ith digit of the integer. The digits are ordered from most<br>
-significant to least significant in left-to-right order. The large integer does not contain any leading 0's.<br>
-Increment the large integer by one and return the resulting array of digits.**
+**Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same.
+
+Consider the number of unique elements in nums to be k​​​​​​​​​​​​​​. After removing duplicates, return the number of unique elements k.
+
+The first k elements of nums should contain the unique numbers in sorted order. The remaining elements beyond index k - 1 can be ignored.**
