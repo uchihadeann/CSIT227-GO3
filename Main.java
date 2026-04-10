@@ -1,19 +1,16 @@
 class Solution {
-    public int[] plusOne(int[] digits) {
+    public int removeDuplicates(int[] nums) {
+        if (nums.length == 0) return 0;
 
-        for (int i = digits.length - 1; i >= 0; i--) {
+        int k = 1;
 
-            if (digits[i] != 9) {
-                digits[i]++;
-                return digits;
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] != nums[i - 1]) {
+                nums[k] = nums[i];
+                k++;
             }
-
-            digits[i] = 0;
         }
 
-        
-        int[] result = new int[digits.length + 1];
-        result[0] = 1;
-        return result;
+        return k;
     }
 }
